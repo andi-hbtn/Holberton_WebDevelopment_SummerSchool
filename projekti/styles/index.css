@@ -1,0 +1,162 @@
+body {
+	margin: 0px;
+}
+
+header {
+	width: 100%;
+	overflow: hidden;
+	background-color: #000000;
+}
+
+nav {
+	width: 80%;
+	overflow: hidden;
+	margin: 20px auto;
+	background-image: url("../images/banner-home.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+nav>a,
+nav>ul {
+	display: inline-block;
+}
+
+.logo-container {
+	width: 20%;
+}
+
+.menu-container {
+	width: 70%;
+	float: right;
+	list-style-type: none;
+	margin-top: 10px;
+	padding: 0px;
+
+}
+
+.menu-container>li {
+	width: 12%;
+	text-align: center;
+	display: inline-block;
+}
+
+.menu-container>li>a {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+nav>h2 {
+	color: #ffffff;
+	font-size: 45px;
+	text-align: center;
+}
+
+nav>button {
+	display: block;
+	margin: 0 auto;
+	padding: 15px;
+	background-color: transparent;
+	color: #ffffff;
+	border: 1px solid #D73953;
+	width: 180px;
+	font-size: 15px;
+	border-radius: 40px;
+}
+
+nav>button:hover {
+	background-color: #D73953;
+	border-color: #ffffff;
+}
+
+
+.services {
+	width: 100%;
+	overflow: hidden;
+}
+
+.services>h2,
+.services>h4 {
+	text-align: center;
+}
+
+
+.services>h2 {
+	font-size: 45px;
+	margin-bottom: 10px;
+}
+
+.services>h4 {
+	text-transform: uppercase;
+	color: #D73953;
+	margin-top: 10px;
+}
+
+.skills {
+	width: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.skill {
+	width: 30%;
+	float: left;
+	background-color: #d5cdcd;
+	margin: 10px;
+}
+
+.skill>h4 {
+	padding-left: 30px;
+	font-size: 20px;
+}
+
+.skill:hover {
+	background-color: #D73953;
+	color: #ffffff;
+}
+
+.work {
+	width: 100%;
+	overflow: hidden;
+	background-color: #000000;
+}
+
+.work>h2 {
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	line-height: 1.2;
+	margin: 20px 0px 20px 0px;
+	color: #ffffff;
+}
+
+.work>h4 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.2;
+	margin: 20px 0px 20px 0px;
+	color: #D73953;
+}
+
+.works {
+	width: 60%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.post-work {
+	width: 30%;
+	margin-right: 30px;
+	display: inline-block;
+}
+
+.post-work>img {
+	width: 85%;
+	height: 300px;
+	display: block;
+	margin: 0 auto;
+}
